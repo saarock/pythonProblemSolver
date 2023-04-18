@@ -7,6 +7,7 @@
 a = "My name is AAyush basnet"
 
 
+
 b = reversed(a)
 new_string = ''
 # To see the result we have to iterate is with the loop

@@ -26,17 +26,4 @@ find_comman(list1, list2, list3)
 
 
 # Question number 2 ==>> Find the missing and the additional value from the list
-
-l1 = [1,2,3,4,5,6]
-l2 = [4,5,6,7,8,9,10]
-
-def lets_find(l1, l2):
-    for i in l1:
-        for j in l2:
-            if i==j:
-                pass
-            else: 
-                print('In the l1 the additional and the missing value is ',i)
-                # print('And the missing value is ')
-
-lets_find(l1, l2)
+# pratice your self; 
