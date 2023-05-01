@@ -60,3 +60,4 @@ print(a)
 print(b)
 
 
+# remove() => remove the first item whose value is mathced with x
