@@ -13,3 +13,4 @@ if (image is not None):
     cv2.destroyAllWindows()
 else:
     print('SOmethings wrong')
+
