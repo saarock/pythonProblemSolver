@@ -8,9 +8,12 @@ data =res.json()
 try:
  print('Searching...')
  w= data['current']['temp_c']
- print('Loading...')
+ print('Telling...')
  text = f'the current weater in {city} is {w}'
  speak.Speak(text)
 except Exception as e:
+    print('telling...')
     text = f'No matching location found.'
     speak.Speak(text)
+
+print('Thank you for using...')
